@@ -82,8 +82,7 @@ python predict.py --test_files test_files --batch_size 128 --model_path res_mode
 
 #### 资料说明
 
-伪造工具libcom仓库地址：https://github.com/bcmi/libcom?tab=readme-ov-file
+伪造工具Targeted adversarial attacks with Keras and TensorFlow仓库地址：[https://github.com/bcmi/libcom?tab=readme-ov-file](https://pyimagesearch.com/2020/10/26/targeted-adversarial-attacks-with-keras-and-tensorflow/)
 
-伪造工具libcom文档地址：https://libcom.readthedocs.io/en/latest/api.html
 
 
