@@ -1,3 +1,6 @@
+### 相机分类攻击
+我们希望通过白盒攻击的方法实现可控地让设备分类模型分类错误并分类到我们预期地类别上去。以往的分类攻击是在原图像上添加一个噪音，以此来干扰模型判断，但是这种方法无法控制模型分类地结果。我们希望设计这样一个网络结构，他拥有两个loss，一个loss随着伪造后的图像与原来的图像内容差别越小而越小，另一个loss随着伪造后的图像经过模型的分类结果置信度与我们预期的结果越接近越小，目前正在讨论网络结构的设计和训练的策略。
+
 ### 真假相机分类codebase说明：
 
 #### 文件结构说明
@@ -82,3 +85,5 @@ python predict.py --test_files test_files --batch_size 128 --model_path res_mode
 伪造工具libcom仓库地址：https://github.com/bcmi/libcom?tab=readme-ov-file
 
 伪造工具libcom文档地址：https://libcom.readthedocs.io/en/latest/api.html
+
+
